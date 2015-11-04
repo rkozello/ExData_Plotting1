@@ -1,0 +1,11 @@
+temp <- tempfile()
+download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", method="curl", temp)
+tabrows<- read.table(unz(temp, "household_power_consumption.txt"), sep=";",  header = TRUE, na.strings="?", stringsAsFactors=FALSE)
+unlink(temp)
+tabrows$Date <-as.Date(tabrows$Date, "%d/%m/%Y")
+powerdata <- tabrows[grep("(2007-02-01|2007-02-02)", tabrows$Date), ]
+rm("tabrows")
+powerdata$DateTime <-paste(powerdata$Date, powerdata$Time)
+powerdata$DateTime <-strptime(powerdata$DateTime, "%Y-%m-%d %T")
+write.csv(powerdata, "powerdata.csv", row.names=F)
+rm("powerdata", "temp")

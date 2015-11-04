@@ -18,8 +18,10 @@ Check working directory with your favorite file manager to find plot[1234].png f
 
 Script tested on
 
-> sessionInfo()
+\> sessionInfo()
+
 R version 3.1.1 (2014-07-10)
+
 Platform: i686-pc-linux-gnu (32-bit)
 
 locale:

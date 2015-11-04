@@ -16,6 +16,26 @@ This script downloads data, makes some preparation, and then writes small portio
 
 Check working directory with your favorite file manager to find plot[1234].png files and open them.
 
+Script tested on
+
+> sessionInfo()
+R version 3.1.1 (2014-07-10)
+Platform: i686-pc-linux-gnu (32-bit)
+
+locale:
+ [1] LC_CTYPE=ru_RU.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=ru_RU.UTF-8        LC_COLLATE=ru_RU.UTF-8    
+ [5] LC_MONETARY=be_BY.UTF-8    LC_MESSAGES=ru_RU.UTF-8   
+ [7] LC_PAPER=be_BY.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=be_BY.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] tools_3.1.1
+
 ## Introduction
 
 This assignment uses data from

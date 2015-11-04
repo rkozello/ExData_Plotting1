@@ -1,3 +1,16 @@
+## How to run scripts
+First of all, fork/clone this repository to your computer. Than use setwd() in R to set working directory to this cloned repository.
+Run dataprep.R
+> source("dataprep.R")
+
+This script downloads data, makes some preparation, and then writes small portion of data to local disk (in current R working directory). It is important to run plot<N>.R scripts from the same directory. 
+> source("plot1.R")
+> source("plot2.R")
+> source("plot3.R")
+> source("plot4.R")
+
+Check working directory with your favorite file manager to find plot[1234].png files and open them.
+
 ## Introduction
 
 This assignment uses data from

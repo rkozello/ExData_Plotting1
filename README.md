@@ -6,6 +6,12 @@ Run dataprep.R
 
 This script downloads data, makes some preparation, and then writes small portion of data to local disk (in current R working directory). However, if your Internet settings do not allow R to download ZIP file, this prepared data is placed here as powerdata.csv file. If dataprep.R script runs fine, this file gets overwritten. It is important to run plot<N>.R scripts from the same directory. 
 
+To preview all 4 plots, run
+
+\> source("viewplots.R")
+
+To generate PNG files, run
+
 \> source("plot1.R")
 
 \> source("plot2.R")

@@ -1,5 +1,5 @@
 ## How to run scripts
-First of all, fork/clone this repository to your computer. Than use setwd() in R to set working directory to this cloned repository.
+First of all, fork/clone this repository to your computer. If you already forked master repo, this might not work, use "Download ZIP" button on the right to make your local copy. Than use setwd() in R to set working directory to this cloned repository.
 Run dataprep.R
 
 \> source("dataprep.R")

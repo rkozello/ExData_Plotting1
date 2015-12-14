@@ -3,6 +3,7 @@ First of all, fork/clone this repository to your computer. If you already forked
 Run dataprep.R
 
 \> source("dataprep.R")
+
 3. R script runs fine, this file gets 
 1. This script downloads data, makes some preparation, and then writes small 
 2. portion of data to local disk (in current R working directory). However, 
